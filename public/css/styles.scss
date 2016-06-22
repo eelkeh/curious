@@ -536,8 +536,9 @@ nav {
     text-align: center;
 
     a {
-      color: white;
-      font-family: 'Apercu Bold';
+      color: $green;
+      text-decoration: none;
+      //font-family: 'Apercu Bold';
     }
 
     h3, h4 {

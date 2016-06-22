@@ -367,8 +367,8 @@ nav {
       .container .statement {
         width: 50%; } }
     .container .statement a {
-      color: white;
-      font-family: 'Apercu Bold'; }
+      color: #19b764;
+      text-decoration: none; }
     .container .statement h3, .container .statement h4 {
       margin-bottom: 12px; }
     .container .statement p:last-child {
