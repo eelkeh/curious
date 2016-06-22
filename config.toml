@@ -1,0 +1,4 @@
+baseurl = "http://eelkeh.github.io/curious/"
+languageCode = "nl"
+title = "Buro Curious"
+canonifyurls = true
