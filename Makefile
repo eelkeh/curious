@@ -2,4 +2,4 @@ run:
 	hugo server
 
 watch:
-	gulp sass:watch
+	./node_modules/.bin/gulp sass:watch

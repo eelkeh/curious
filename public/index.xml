@@ -6,7 +6,9 @@
     <description>Recent content on Buro Curious</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl</language>
-    <atom:link href="http://eelkeh.github.io/curious/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://eelkeh.github.io/curious/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>

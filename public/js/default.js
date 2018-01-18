@@ -30,9 +30,9 @@ $('.next').click(function() {
 
 // $('.container').height($(window).height());
 
-$(window).scroll(function(){
-  requestTick();
-});
+// $(window).scroll(function(){
+//   requestTick();
+// });
 
 function checkVis() {
 }
@@ -40,8 +40,8 @@ function checkVis() {
 function percentageInViewport(scrollBottom, $elem) {
   var h = $elem.height();
   var elemPos = $elem.position();
-  var inViewport = scrollBottom - elemPos.top;
-  return inViewport > 0 ? inViewport/ h : 0;
+  var inViewport = scrollBottom - (elemPos.top - 2000);
+  return inViewport > 0 ? inViewport / h : 0;
 }
 
 function update() {
@@ -50,6 +50,7 @@ function update() {
   var scrollTop = $(document).scrollTop();
   var scrollBottom = scrollTop + $(window).height();
   var $cs = $('.container[data-fade]');
+  // console.log($cs);
 
   var write = [];
   $cs.each(function() {
